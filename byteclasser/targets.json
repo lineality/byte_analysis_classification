@@ -1,0 +1,134 @@
+{
+  "metadata": {
+    "min_frequency": 2,
+    "min_uniqueness": 0.7,
+    "ngram_range": [
+      1,
+      2
+    ]
+  },
+  "targets": {
+    "class2": {
+      "label": "class2",
+      "targets": [
+        {
+          "text": "another",
+          "weight": 6.0,
+          "frequency": 6,
+          "uniqueness": 1.0,
+          "bytes_pattern": "616e6f74686572"
+        },
+        {
+          "text": "example",
+          "weight": 6.0,
+          "frequency": 6,
+          "uniqueness": 1.0,
+          "bytes_pattern": "6578616d706c65"
+        },
+        {
+          "text": "another document",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "616e6f7468657220646f63756d656e74"
+        },
+        {
+          "text": "another example",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "616e6f74686572206578616d706c65"
+        },
+        {
+          "text": "document example",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "646f63756d656e74206578616d706c65"
+        },
+        {
+          "text": "example document",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "6578616d706c6520646f63756d656e74"
+        },
+        {
+          "text": "yet",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "796574"
+        },
+        {
+          "text": "yet another",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "79657420616e6f74686572"
+        }
+      ]
+    },
+    "class1": {
+      "label": "class1",
+      "targets": [
+        {
+          "text": "is",
+          "weight": 6.0,
+          "frequency": 6,
+          "uniqueness": 1.0,
+          "bytes_pattern": "6973"
+        },
+        {
+          "text": "this",
+          "weight": 6.0,
+          "frequency": 6,
+          "uniqueness": 1.0,
+          "bytes_pattern": "74686973"
+        },
+        {
+          "text": "this is",
+          "weight": 6.0,
+          "frequency": 6,
+          "uniqueness": 1.0,
+          "bytes_pattern": "74686973206973"
+        },
+        {
+          "text": "different",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "646966666572656e74"
+        },
+        {
+          "text": "is different",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "697320646966666572656e74"
+        },
+        {
+          "text": "is sample",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "69732073616d706c65"
+        },
+        {
+          "text": "sample",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "73616d706c65"
+        },
+        {
+          "text": "sample document",
+          "weight": 3.0,
+          "frequency": 3,
+          "uniqueness": 1.0,
+          "bytes_pattern": "73616d706c6520646f63756d656e74"
+        }
+      ]
+    }
+  }
+}

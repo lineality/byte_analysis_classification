@@ -1,0 +1,12 @@
+row_id,text,class1,class2
+0,another example document ,0,18
+1,yet another document example ,0,24
+2,this is different ,30,0
+3," ""this is  sample document"" ",30,0
+4,"    ""another example document"" ",0,18
+5,"    ""yet another document example"" ",0,24
+6,"    ""this is different"" ",30,0
+7,"    ""this a sample document"" ",18,0
+8,"    ""another example document"" ",0,18
+9,"    ""yet another document example"" ",0,24
+10,"    ""this is different"" ",30,0
